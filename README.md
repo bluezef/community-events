@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# 📱 Community Events App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React_Native-v0.73-blue.svg)
+![Expo](https://img.shields.io/badge/Expo-v50+-black.svg)
+![Firebase](https://img.shields.io/badge/Firebase-9.0+-yellow.svg)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
 
-## Get started
+Aplicación móvil desarrollada en **React Native (Expo)** con **TypeScript** para la gestión de eventos comunitarios. Permite a los vecinos organizar, difundir y participar en actividades locales de manera eficiente.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📋 Tabla de Contenidos
+1. [Descripción y Funcionalidades](#-descripción-y-funcionalidades)
+2. [Tecnologías](#-tecnologías)
+3. [Metodología Scrum](#-metodología-scrum)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📖 Descripción y Funcionalidades
 
-In the output, you'll find options to open the app in a
+El objetivo del proyecto es fomentar la interacción social mediante una plataforma centralizada de eventos.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Funcionalidades Principales
+* **🔐 Autenticación:** Registro e inicio de sesión seguro (Firebase Auth).
+* **📅 Gestión de Eventos (CRUD):**
+    * **Crear:** Los usuarios pueden publicar nuevos eventos (Título, Ubicación, Fecha, Descripción).
+    * **Leer:** Feed principal actualizado en tiempo real.
+    * **Eliminar:** El creador de un evento puede eliminarlo si es necesario.
+* **💬 Interacción Social:**
+    * **RSVP:** Confirmación de asistencia (Asistir / Cancelar) con contador en tiempo real.
+    * **Comentarios:** Chat integrado en cada evento.
+    * **Compartir:** Integración con apps nativas (WhatsApp, Telegram, etc.) para difundir el evento.
+* **👤 Perfil:** Historial de eventos creados y sesión de usuario.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠 Tecnologías
 
-When you're ready, run:
+* **Frontend:** React Native, Expo Router, TypeScript.
+* **Estilos:** StyleSheet nativo, Expo Vector Icons.
+* **Backend (BaaS):** Firebase (Firestore Database & Authentication).
+* **Compilación:** EAS (Expo Application Services).
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 👥 Metodología Scrum
 
-## Learn more
+El desarrollo se realizó bajo la metodología ágil Scrum con los siguientes roles asignados:
 
-To learn more about developing your project with Expo, look at the following resources:
+| Rol | Integrante | Responsabilidades |
+| :--- | :--- | :--- |
+| **Product Owner** | Ernesto González | Definición de Historias de Usuario y validación de requisitos. |
+| **Scrum Master** | Ernesto González | Gestión del tablero Kanban y resolución de bloqueos técnicos (WSL/Android). |
+| **Dev Team** | Ernesto González | Codificación en React Native, lógica de negocios e integración Firebase. |
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---

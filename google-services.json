@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482820004444",
+    "project_id": "community-events-a77d4",
+    "storage_bucket": "community-events-a77d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482820004444:android:5ac2698362aab5f3e5a499",
+        "android_client_info": {
+          "package_name": "com.bluezef.communityevents"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy0yPIPQcEjbNPv1AQPBSEpX54jJqpV-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
